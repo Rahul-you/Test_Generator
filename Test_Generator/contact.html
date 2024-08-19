@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contact.css">
+
+    <link href=
+    "https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+            rel="stylesheet" integrity=
+    "sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+            crossorigin="anonymous" />
+
+            <style>
+                .navbar-brand, .nav-link {
+                  color: #fff; /* white text */
+                }
+          
+                .navbar-brand:hover, .nav-link:hover {
+                  color: #ccc; /* light gray text on hover */
+                }
+              </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-black bg-black">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="home.html">Test Generator</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="features.html">Features</a>
+              </li>
+
+
+              
+            </ul>
+           
+          </div>
+        </div>
+      </nav>
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+    
+    <main>
+        <section class="contact-info1">
+            <h2>Developer Contact Information</h2>
+            <p><strong>Name:</strong> Dheeraj Gaur</p>
+            <p><strong>Address:</strong> 123 Developer Lane, Code City, DevState, 45678</p>
+            <p><strong>Email:</strong> <a href="mailto:developer@example.com">dheeraj.gaur_cs23@gla.ac.in</a></p>
+            <p><strong>Contact Number:</strong> +123 456 7890</p>
+        </section>
+        <section class="contact-info1">
+            <h2>Developer Team</h2>
+            <p><strong>Name:</strong> Divesh Singh</p>
+            <p><strong>Address:</strong> 123 Developer Lane, Code City, DevState, 45678</p>
+            <p><strong>Email:</strong> <a href="mailto:developer@example.com">divesh.singh_cs23@gla.ac.in</a></p>
+            <p><strong>Contact Number:</strong> +123 456 7890</p>
+        </section>
+        <section class="contact-info1">
+            <p><strong>Name:</strong> Neelesh Shakya</p>
+            <p><strong>Address:</strong> 123 Developer Lane, Code City, DevState, 45678</p>
+            <p><strong>Email:</strong> <a href="mailto:developer@example.com">neelesh.shakya_cs23@gla.ac.in</a></p>
+            <p><strong>Contact Number:</strong> +123 456 7890</p>
+        </section>
+        <section class="contact-info1">
+            <p><strong>Name:</strong> Rahul</p>
+            <p><strong>Address:</strong> 123 Developer Lane, Code City, DevState, 45678</p>
+            <p><strong>Email:</strong> <a href="mailto:developer@example.com">rahul.gla2_cs23@gla.ac.in</a></p>
+            <p><strong>Contact Number:</strong> +123 456 7890</p>
+        </section>
+
+        <section class="contact-form">
+            <h2>Send Us a Message</h2>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+            <p id="formMessage"></p>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 TEST GENERATOR. All rights reserved.</p>
+    </footer>
+
+    <script src="contact.js"></script>
+</body>
+</html>

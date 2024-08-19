@@ -1,0 +1,107 @@
+/* styles.css */
+.navbar{
+    height: 100px;
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.projectinfo{
+    height: 100px;
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.container p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    color: #033dfc;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.selectmember{
+    margin-top: 65px;
+ background-color: #333;
+ color: #fff;
+ border: transparent;
+}
+h1 {
+    color: #fff;
+}
+.space{
+    margin-top: 50px;
+    height: 160px;
+    background-color: #333;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+form {
+    margin-bottom: 20px;
+}
+
+input[type="file"] {
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.hidden {
+    display: none;
+}
+
+#questions {
+    margin-top: 20px;
+}
+
+.question {
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    border: 1px solid #ddd;
+    padding: 5px;
+    width: calc(100% - 22px);
+}
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    height: fit-content;
+}
+
+footer .container1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
